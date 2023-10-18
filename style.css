@@ -1,0 +1,41 @@
+body{
+    min-height: 2000px;
+}
+.container{
+    position: relative;
+}
+
+.boxstatic{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    position: static;
+    background: #362FD9;
+}
+
+.boxrelative{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    position: relative;
+    left: 750px;
+    background: #E55604;
+}
+
+.boxabsolute{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    background: rgba(255,300,13, 0.5);
+}
+
+.boxfixed{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background: #005B41;
+    position: fixed;
+}
